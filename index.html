@@ -25,17 +25,17 @@
                 <form action="index.html" method="post">
 
                     <fieldset class="form-contact">
+                        <label for="" id="headline">Contact Information</label>
                         
-                        <h1>Contact Information</h1>
                     
                         <div class="flex">
                             <label for="name">Full Name</label>
-                            <input type="text" id="name" name="user_name" placeholder="Required"><br>
+                            <input type="text" id="name" name="user_name" placeholder="Required" required><br>
                         </div>
 
                         <div class="flex">
                             <label for="mail">Email Address</label>
-                            <input type="email" id="mail" name="user_email" placeholder="Required"><br>
+                            <input type="email" id="mail" name="user_email" placeholder="Required" required><br>
                         </div>
                         
                         <div class="flex">
@@ -123,8 +123,8 @@
                     </fieldset>
                 
                     <fieldset class="newsletter-form">
-                        <h1>Newsletter</h1>
-
+                        <label for="" id="headline2">Newsletter</label>
+                        
                         <label>Select the newsletters you would like to recieve</label><br>
                                
                             <input type="checkbox" id="html_news" value="newsletter_html" name="user_newsletter">
@@ -145,7 +145,7 @@
                             <label for="plain_text" class="light">Plain text</label><br>
                                 
                         <label>Other topics you´d like to hear about</label><br>
-                        <textarea name="user_topics" id="other_topics" cols="30" rows="10"></textarea><br>
+                        <textarea name="user_topics" for="other_topics" id="other_topics" cols="30" rows="10"></textarea><br>
 
                         <button class="sign-up-but" type="submit">Sign up</button>
                     </fieldset>    

@@ -130,7 +130,8 @@ footer p {
         flex-direction: row;
     }
 
-    .form-contact input {
+    .form-contact input
+    .form-contact select {
     flex-grow: 1;
     flex-basis: 75%;
     }

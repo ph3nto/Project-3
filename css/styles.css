@@ -13,11 +13,9 @@ html, body {
     text-align: center;
     display: block;
     font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
+    color: lavender;
+    text-shadow: 1px 1px .8px black;
 }
 
 form,
@@ -99,8 +97,10 @@ form h1 {
     width: 40%;
 }
 
+
 .form-contact input:focus {
-    border: 1px solid hsl(201, 100%, 50%)
+    border: 1px solid hsl(201, 100%, 50%);
+    transition: .5s;
 }
 
 .recieve {
